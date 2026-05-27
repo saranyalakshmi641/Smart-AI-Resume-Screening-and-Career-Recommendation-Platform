@@ -87,6 +87,7 @@ Learning sequence
 Project recommendations
 Career improvement guidance
 Skill development path
+
 6️⃣ AI Resume Chatbot
 
 The AI chatbot uses RAG (Retrieval-Augmented Generation) to answer resume-related questions such as:
@@ -109,3 +110,7 @@ Missing skills
 Resume improvement suggestions
 Career guidance
 Interview preparation questions
+
+🚀 How to Run the Project
+pip install -r requirements.txt
+streamlit run app.py
