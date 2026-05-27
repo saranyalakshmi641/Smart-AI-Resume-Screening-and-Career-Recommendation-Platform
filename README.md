@@ -1,27 +1,22 @@
 # Smart-AI-Resume-Screening-and-Career-Recommendation-Platform
 
-AI Career Assistant is an intelligent resume analysis and career guidance platform designed to help students, freshers, and job seekers improve their career readiness using AI.
+AI Career Assistant is an intelligent resume analysis platform that helps users evaluate their resumes, identify missing skills for target roles, and generate personalized AI-powered career roadmaps.
 
-The application analyzes resumes, calculates ATS scores, identifies missing skills for specific job roles, and generates personalized learning roadmaps to help users achieve their target careers.
+The application combines Resume Parsing, ATS Scoring, Skill Gap Analysis, RAG-based AI Chatbot, and Career Guidance into one interactive platform with a modern Streamlit interface.
 
-It also includes a RAG-based AI chatbot that can answer resume-related and career-related questions using the uploaded resume as context.
-
-The project is built using Python, Streamlit, LangChain, FAISS, HuggingFace embeddings, and Groq LLMs with a modern and interactive UI.
+Built using Python, Streamlit, FAISS, LangChain, and Groq LLMs, the system provides an end-to-end AI career assistance experience for students, freshers, and job seekers.
 
 🌟 Features
 AI-powered Resume Analysis
 ATS Resume Score Calculation
 Automatic Skill Extraction
 Dynamic Skill Gap Analysis
-Personalized AI Career Roadmap
+Personalized AI Learning Roadmap
 RAG-based Resume Chatbot
-Target Role Matching
-Resume-based Career Guidance
+Role-based Career Guidance
 FAISS Vector Database Integration
+Interactive and Modern UI
 Real-time AI Responses using Groq LLM
-Interactive Modern Streamlit UI
-
-
 🛠️ Tech Stack
 Python
 Streamlit
@@ -31,15 +26,13 @@ LangChain
 FAISS Vector Store
 HuggingFace Embeddings
 Groq LLM (LLaMA 3)
-HTML
-CSS
-
-
+HTML & CSS
 📂 Project Structure
 AI-Career-Assistant/
 │
 ├── app.py
 ├── requirements.txt
+├── README.md
 ├── .env
 │
 ├── assets/
@@ -55,10 +48,7 @@ AI-Career-Assistant/
 │   └── ats_score.py
 │
 ├── data/
-│
-└── README.md
-
-
+└── models/
 ⚙️ How It Works
 1️⃣ Resume Upload
 
@@ -66,11 +56,11 @@ Users upload their resume in PDF format through the Streamlit interface.
 
 2️⃣ Resume Parsing
 
-The system extracts resume text and identifies technical skills automatically using NLP techniques.
+The system extracts resume text and automatically identifies technical skills from the uploaded resume.
 
 3️⃣ ATS Score Analysis
 
-An ATS compatibility score is generated based on resume content, extracted skills, and industry relevance.
+An ATS compatibility score is generated based on resume content, skill relevance, and formatting quality.
 
 4️⃣ Skill Gap Detection
 
@@ -82,41 +72,26 @@ AI Engineer
 Python Developer
 Data Analyst
 
-The system compares the user's skills with required industry skills and identifies missing areas.
+The system compares existing resume skills with industry-required skills and identifies missing areas.
 
 5️⃣ AI Career Roadmap
 
-The platform generates a personalized learning roadmap including:
+A personalized AI-generated roadmap is created with:
 
-Technologies to learn
-Learning sequence
-Project recommendations
-Career improvement guidance
-Skill development path
-
+Learning steps
+Recommended technologies
+Project ideas
+Skill-building guidance
+Career improvement suggestions
 6️⃣ AI Resume Chatbot
 
-The AI chatbot uses RAG (Retrieval-Augmented Generation) to answer resume-related questions such as:
+Users can interact with the AI chatbot and ask questions like:
 
 What skills am I missing?
 How can I improve my resume?
 Which projects should I build?
 What should I learn next?
 Interview preparation guidance
-
-Learning steps
-Technologies to learn
-Project ideas
-Career guidance
-6️⃣ AI Chatbot
-
-Users can interact with the resume chatbot and ask:
-
-Missing skills
-Resume improvement suggestions
-Career guidance
-Interview preparation questions
-
 🚀 How to Run the Project
 pip install -r requirements.txt
 streamlit run app.py
