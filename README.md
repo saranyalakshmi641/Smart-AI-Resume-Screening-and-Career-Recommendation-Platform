@@ -20,6 +20,8 @@ Resume-based Career Guidance
 FAISS Vector Database Integration
 Real-time AI Responses using Groq LLM
 Interactive Modern Streamlit UI
+
+
 🛠️ Tech Stack
 Python
 Streamlit
@@ -31,6 +33,8 @@ HuggingFace Embeddings
 Groq LLM (LLaMA 3)
 HTML
 CSS
+
+
 📂 Project Structure
 AI-Career-Assistant/
 │
@@ -53,6 +57,8 @@ AI-Career-Assistant/
 ├── data/
 │
 └── README.md
+
+
 ⚙️ How It Works
 1️⃣ Resume Upload
 
