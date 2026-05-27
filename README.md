@@ -64,7 +64,8 @@ AI-Career-Assistant/
 
 ---
 
-**# ⚙️ How It Works**
+# ⚙️ How It Works
+
 1️⃣ Resume Upload
 
 Users upload their resume in PDF format through the Streamlit interface.
